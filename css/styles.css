@@ -217,55 +217,71 @@ h2 {
 }
 
 .advantages-before-one::before {
-  background-image: url("/Images/Group_1.svg");
+  background-color: #f5f4fa;
+  background-image: url("/Images/antenna_1.svg");
   content: " ";
-  display: inline-block;
-  width: 270px;
+  display: block;
+
   height: 120px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  background-size: contain;
+  background-size: auto;
+
   margin-bottom: 30px;
 }
 
 .advantages-before-two::before {
-  background-image: url("/Images/Group_2.svg");
+  background-color: #f5f4fa;
+  background-image: url("/Images/clock_1.svg");
   content: " ";
-  display: inline-block;
-  width: 270px;
+  display: block;
+
   height: 120px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  background-size: contain;
+
+  background-size: auto;
   margin-bottom: 30px;
 }
 
 .advantages-before-three::before {
-  background-image: url("/Images/Group_3.svg");
+  background-color: #f5f4fa;
+  background-image: url("/Images/diagram_1.svg");
   content: " ";
-  display: inline-block;
-  width: 270px;
+  display: block;
+
   height: 120px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  background-size: contain;
+  background-size: auto;
+
   margin-bottom: 30px;
 }
 
 .advantages-before-four::before {
-  background-image: url("/Images/Group_4.svg");
+  background-color: #f5f4fa;
+  background-image: url("/Images/astronaut_1.svg");
   content: " ";
-  display: inline-block;
-  width: 270px;
+  display: block;
+
   height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  margin-bottom: 30px;
+}
+
+.email-icon::before {
+  background-image: url("/Images/email_icon.svg");
+  content: " ";
+  display: block;
+  width: 16px;
+  height: 12px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-size: contain;
-  margin-bottom: 30px;
+  margin-right: 10px;
 }
 
 .modal-open-btn {
