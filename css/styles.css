@@ -558,9 +558,45 @@ button:focus {
   color: var(--font-third-color);
   margin: 0;
 }
+
+.team button {
+  border-radius: 20px;
+  cursor: pointer;
+  border: 0px;
+  background-color: #fff;
+  margin-top: 16px;
+}
+
+.social:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social:hover,
+.social:active,
+.social:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--font-second-color);
+  color: white;
+}
+
+/* .social-one {
+  margin-left: 15px;
+} */
+
+.social {
+  width: 44px;
+  height: 44px;
+}
+
 /*  ===== /Наша команда ===== */
 
 /* Постоянные клиенты */
+
+.clients {
+  padding-top: 0;
+
+  padding-bottom: 94px;
+}
 
 .clients h2 {
   font-style: normal;
@@ -574,18 +610,45 @@ button:focus {
   margin-bottom: 30px;
 }
 
-.partners button {
-  display: flex;
+.button-icon {
+  background-color: white;
   width: 170px;
   height: 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  border: 1px solid #afb1b8;
+  border-width: 1px;
+  border-radius: 4px;
   padding: 0;
-  margin: 0;
+  cursor: pointer;
 }
 
-.button-icon {
-  width: 44px;
-  height: 49px;
+.clients li:not(:last-child) {
+  margin-right: 30px;
 }
+
+/* .one-logo-style {
+  padding-top: 20px;
+  padding-right: 63px;
+  padding-bottom: 20px;
+  padding-left: 63px;
+}
+
+.two-logo-style {
+}
+
+.three-logo-style {
+}
+
+.four-logo-style {
+}
+
+.five-logo-style {
+}
+
+.six-logo-style {
+} */
 /* /Постоянные клиенты */
 
 /* ===== Футер ===== */
