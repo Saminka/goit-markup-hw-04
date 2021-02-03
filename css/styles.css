@@ -573,6 +573,19 @@ button:focus {
   margin-top: 0;
   margin-bottom: 30px;
 }
+
+.partners button {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  padding: 0;
+  margin: 0;
+}
+
+.button-icon {
+  width: 44px;
+  height: 49px;
+}
 /* /Постоянные клиенты */
 
 /* ===== Футер ===== */
