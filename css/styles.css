@@ -196,14 +196,20 @@ h2 {
   padding-bottom: 200px;
   background-color: #2f303a;
   text-align: center;
-
-  background-image: url("/Images/bcg-hero.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.5),
+      rgba(47, 48, 58, 0.5)
+    ),
+    url("/Images/bcg-hero.jpg");
 
   max-width: 1600px;
   height: 600px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .advantages-padding {
@@ -560,7 +566,7 @@ button:focus {
 }
 
 .team button {
-  border-radius: 20px;
+  border-radius: 50%;
   cursor: pointer;
   border: 0px;
   background-color: #fff;
@@ -576,16 +582,34 @@ button:focus {
 .social:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--font-second-color);
-  color: white;
 }
 
 /* .social-one {
   margin-left: 15px;
 } */
 
+/* .social use {
+  color: #afb1b8;
+} */
+
+.social-logo-style {
+  fill: #afb1b8;
+}
+
+.social-logo-style:hover,
+.social-logo-style:active,
+.social-logo-style:focus {
+  fill: white;
+}
+
 .social {
   width: 44px;
   height: 44px;
+}
+
+.social svg {
+  background-size: 20px;
+  background-position: center;
 }
 
 /*  ===== /Наша команда ===== */
