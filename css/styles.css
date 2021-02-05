@@ -557,23 +557,30 @@ button:focus {
 }
 
 .team button {
+  display: inline-flex;
+  flex-direction: row;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
   border-radius: 50%;
   cursor: pointer;
   border: 0px;
+  fill: #afb1b8;
   background-color: #fff;
   margin-top: 16px;
+  align-items: center;
 }
 
 .social:not(:last-child) {
   margin-right: 10px;
 }
 
-.social:hover,
+/* .social:hover,
 .social:active,
 .social:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--font-second-color);
-}
+} */
 
 /* .social-one {
   margin-left: 15px;
@@ -583,19 +590,25 @@ button:focus {
   color: #afb1b8;
 } */
 
-.social-logo-style {
+/* .social-logo-style {
   fill: #afb1b8;
-}
+} */
 
-.social-logo-style:hover,
-.social-logo-style:active,
-.social-logo-style:focus {
+.team button:hover,
+.team button:active,
+.team button:focus {
+  background-color: var(--font-second-color);
   fill: white;
 }
 
-.social {
+/* .social {
   width: 44px;
   height: 44px;
+} */
+
+.social-logo-style {
+  align-items: center;
+  justify-content: center;
 }
 
 .social svg {
@@ -720,11 +733,36 @@ button:focus {
 }
 
 .social-footer {
-  display: inline-block;
+  display: inline-flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  fill: #fff;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
+
+.social-footer:hover,
+.social-footer:active,
+.social-footer:focus {
+  background-color: var(--font-second-color);
+  fill: white;
+}
+
+/* display: inline-flex;
+  flex-direction: row;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0px;
+  fill: #afb1b8;
+  background-color: #fff;
+  margin-top: 16px;
+  align-items: center; */
 
 .footer-title {
   margin-top: 0;
@@ -737,16 +775,16 @@ button:focus {
   text-transform: uppercase;
   color: white;
 }
-
+/* 
 .footer-box-contacts {
   display: flex;
   align-items: baseline;
   margin-bottom: 9px;
   margin-right: 70px;
-}
+} */
 
-.footer-box-link {
+/* .footer-box-link {
   display: flex;
   align-items: baseline;
-}
+} */
 /* ===== /Футер ===== */ ;
