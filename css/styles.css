@@ -774,14 +774,21 @@ button:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: white;
+  /* text-align: center; */
 }
-/* 
-.footer-box-contacts {
+
+.footer-box {
   display: flex;
   align-items: baseline;
-  margin-bottom: 9px;
+}
+
+.footer-box-contact {
   margin-right: 70px;
-} */
+}
+
+.footer-icon-padding {
+  padding: 0;
+}
 
 /* .footer-box-link {
   display: flex;
