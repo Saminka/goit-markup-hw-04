@@ -50,6 +50,7 @@ header {
 
 nav .link {
   display: block;
+  font-weight: 500;
 }
 
 .list-no-style-address {
@@ -75,7 +76,6 @@ nav .link {
 }
 
 .hero .modal-open-btn {
-  display: inline-flex;
   margin-top: 30px;
 }
 
@@ -277,23 +277,36 @@ h2 {
   margin-bottom: 30px;
 }
 
-.email-icon::before {
-  background-image: url("/Images/email_icon.svg");
-  content: " ";
-  display: block;
-  width: 16px;
-  height: 12px;
+.email-icon {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-size: contain;
+  background-size: auto;
+}
+
+.email-hover {
   margin-right: 10px;
+  fill: #757575;
+}
+
+.email-hover:hover,
+.email-hover:active,
+.email-hover:focus {
+  fill: var(--font-second-color);
+}
+
+.tel-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }
 
 .modal-open-btn {
+  width: 200px;
+  height: 50px;
   font-family: var(--font-main);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -301,7 +314,9 @@ h2 {
   background: var(--font-second-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border-color: transparent;
   cursor: pointer;
+  text-align: center;
 }
 
 /* ===== /Герой ===== */
