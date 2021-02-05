@@ -222,60 +222,24 @@ h2 {
   margin-left: 30px;
 }
 
-.advantages-before-one::before {
+.icons-adv {
   background-color: #f5f4fa;
-  background-image: url("/Images/antenna_1.svg");
-  content: " ";
-  display: block;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
   height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
-
   margin-bottom: 30px;
+  margin-right: 0;
+  border-radius: 4px;
 }
 
-.advantages-before-two::before {
+/* .advantages-before-one::before {
   background-color: #f5f4fa;
-  background-image: url("/Images/clock_1.svg");
+  background-image: url("/Images/symbol-defs.svg/icon-antenna.svg");
   content: " ";
-  display: block;
-
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  background-size: auto;
-  margin-bottom: 30px;
-}
-
-.advantages-before-three::before {
-  background-color: #f5f4fa;
-  background-image: url("/Images/diagram_1.svg");
-  content: " ";
-  display: block;
-
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
-
-  margin-bottom: 30px;
-}
-
-.advantages-before-four::before {
-  background-color: #f5f4fa;
-  background-image: url("/Images/astronaut_1.svg");
-  content: " ";
-  display: block;
-
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
-  margin-bottom: 30px;
-}
+  
+} */
 
 .email-icon {
   background-repeat: no-repeat;
