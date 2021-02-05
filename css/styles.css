@@ -241,6 +241,15 @@ h2 {
   
 } */
 
+/* .email-icon::before {
+  display: inline-block;
+  /* fill: 757575; */
+/* background-image: url("/Images/symbol-defs.svg/icon-email.svg");
+  content: " ";
+  width: 16px;
+  height: 12px;
+} */
+
 .email-icon {
   background-repeat: no-repeat;
   background-position: center;
@@ -487,8 +496,9 @@ button:focus {
 /*  ===== Наша команда ===== */
 
 .team {
-  padding-top: 0;
+  padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #f5f4fa;
 }
 
 .team h2 {
@@ -517,6 +527,8 @@ button:focus {
 
 .team-style {
   padding: 20px 24px 20px 24px;
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-flex {
@@ -596,7 +608,7 @@ button:focus {
 /* Постоянные клиенты */
 
 .clients {
-  padding-top: 0;
+  padding-top: 94px;
 
   padding-bottom: 94px;
 }
@@ -610,7 +622,8 @@ button:focus {
   color: var(--font-main-color);
   text-align: center;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
 }
 
 .button-icon {
@@ -705,4 +718,35 @@ button:focus {
   display: inline-block;
   margin-bottom: 20px;
 }
-/* ===== /Футер ===== */
+
+.social-footer {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.footer-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.footer-box-contacts {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 9px;
+  margin-right: 70px;
+}
+
+.footer-box-link {
+  display: flex;
+  align-items: baseline;
+}
+/* ===== /Футер ===== */ ;
