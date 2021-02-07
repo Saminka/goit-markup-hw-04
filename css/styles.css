@@ -227,8 +227,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 270px;
-  height: 120px;
+  width: 170px;
+  height: 90px;
   margin-bottom: 30px;
   margin-right: 0;
   border-radius: 4px;
@@ -575,6 +575,18 @@ button:focus {
   margin-right: 10px;
 }
 
+.div-social {
+  /* display: block;
+  align-items: baseline; */
+  display: flex;
+  flex-direction: row;
+}
+
+.clients-logo-style {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* .social:hover,
 .social:active,
 .social:focus {
@@ -594,9 +606,24 @@ button:focus {
   fill: #afb1b8;
 } */
 
-.team button:hover,
-.team button:active,
-.team button:focus {
+.team .social {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  fill: #afb1b8;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.team .social:hover,
+.team .social:active,
+.team .social:focus {
   background-color: var(--font-second-color);
   fill: white;
 }
@@ -640,17 +667,31 @@ button:focus {
 }
 
 .button-icon {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  background-position: center;
+  background-size: auto;
+
   background-color: white;
+  fill: #afb1b8;
   width: 170px;
   height: 90px;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
+
   border: 1px solid #afb1b8;
   border-width: 1px;
   border-radius: 4px;
   padding: 0;
   cursor: pointer;
+}
+
+.button-icon:hover,
+.button-icon:active,
+.button-icon:focus {
+  background-color: white;
+  fill: var(--font-second-color);
 }
 
 .clients li:not(:last-child) {
