@@ -742,6 +742,7 @@ button:focus {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 .social-footer:hover,
