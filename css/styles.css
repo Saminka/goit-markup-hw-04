@@ -250,10 +250,18 @@ h2 {
   height: 12px;
 } */
 
-.email-icon {
-  display: flex;
-  align-items: baseline;
+.contacts-hover a {
+  display: inline-flex;
+  align-items: center;
+}
 
+.contacts-hover a:hover,
+.contacts-hover a:active,
+.contacts-hover a:focus {
+  color: var(--font-second-color);
+}
+
+.email-icon {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -264,18 +272,12 @@ h2 {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: #757575;
-}
-
-.email-hover:hover,
-.email-hover:active,
-.email-hover:focus {
-  fill: var(--font-second-color);
+  fill: currentColor;
 }
 
 .tel-hover {
   margin-right: 10px;
-  fill: #757575;
+  fill: currentColor;
 }
 
 .tel-icon {
@@ -283,12 +285,6 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
-}
-
-.hover-email:hover,
-.hover-email:active,
-.hover-email:focus {
-  fill: var(--font-second-color);
 }
 
 .modal-open-btn {
