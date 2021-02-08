@@ -160,6 +160,10 @@ h2 {
   align-items: center;
 }
 
+.header-nav {
+  border: 1px solid #ececec;
+}
+
 .header li a:hover,
 .header a:active,
 .header a:focus {
