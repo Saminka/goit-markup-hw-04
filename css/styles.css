@@ -201,7 +201,7 @@ h2 {
       rgba(47, 48, 58, 0.5),
       rgba(47, 48, 58, 0.5)
     ),
-    url("/Images/bcg-hero.jpg");
+    url("../Images/bcg-hero.jpg");
 
   max-width: 1600px;
   height: 600px;
