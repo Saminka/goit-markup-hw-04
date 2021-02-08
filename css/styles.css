@@ -227,8 +227,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
-  height: 90px;
+  width: 270px;
+  height: 120px;
   margin-bottom: 30px;
   margin-right: 0;
   border-radius: 4px;
@@ -251,6 +251,9 @@ h2 {
 } */
 
 .email-icon {
+  display: flex;
+  align-items: baseline;
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -258,6 +261,8 @@ h2 {
 }
 
 .email-hover {
+  width: 16px;
+  height: 12px;
   margin-right: 10px;
   fill: #757575;
 }
@@ -268,10 +273,22 @@ h2 {
   fill: var(--font-second-color);
 }
 
+.tel-hover {
+  margin-right: 10px;
+  fill: #757575;
+}
+
 .tel-icon {
+  display: flex;
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
+}
+
+.hover-email:hover,
+.hover-email:active,
+.hover-email:focus {
+  fill: var(--font-second-color);
 }
 
 .modal-open-btn {
@@ -393,6 +410,10 @@ h2 {
 .cards .radio-button {
   margin-right: 8px;
   margin-bottom: 0;
+}
+
+.cards .radio-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button-padding {
@@ -662,8 +683,7 @@ button:focus {
   color: var(--font-main-color);
   text-align: center;
   margin-top: 0;
-  margin-bottom: 0px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .button-icon {
@@ -692,7 +712,12 @@ button:focus {
 .button-icon:focus {
   background-color: white;
   fill: var(--font-second-color);
+  border: 1px solid var(--font-second-color);
 }
+
+/* .border-ul:hover {
+  
+} */
 
 .clients li:not(:last-child) {
   margin-right: 30px;
